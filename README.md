@@ -3,4 +3,5 @@
 Instrucciones
 
 ```apt
-apt update && apt upgrade```
+apt update && apt upgrade
+```
