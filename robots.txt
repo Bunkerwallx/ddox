@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /search-results/  # Evita que los crawlers indexen las páginas de resultados de búsqueda.
+Disallow: /login/          # Evita que los crawlers accedan a páginas de inicio de sesión.
+Disallow: /checkout/       # Evita que los crawlers accedan a páginas de pago.
+Disallow: /account/        # Evita que los crawlers accedan a páginas de cuentas de usuario.
+Disallow: /cart/           # Evita que los crawlers accedan al carrito de compras.
+Disallow: /unsubscribe/    # Evita que los crawlers accedan a páginas de cancelación de suscripción.
+Disallow: /reset-password/ # Evita que los crawlers accedan a páginas de restablecimiento de contraseña.
+Disallow: /contact-us/     # Evita que los crawlers accedan a páginas de contacto.
+Disallow: /terms/          # Evita que los crawlers accedan a páginas de términos y condiciones.
+Disallow: /privacy-policy/ # Evita que los crawlers accedan a páginas de política de privacidad.
+
+User-agent: BadBot
+Disallow: /  # Bloquea completamente el acceso a ezte bot
